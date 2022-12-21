@@ -350,7 +350,6 @@ padding-top: 24px;
   line-height: 1.1;
   text-transform: capitalize;
   color: var(--title-text-color);
-  text-align: center;
 }
 
 .social-title {
@@ -447,6 +446,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px
 }
 .menu-portfolio {
   flex-basis: calc(100% / 3 - var(--primary-margin-btwn-items));
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .menu-portfolio-link {
   display: block;
@@ -457,12 +457,11 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px
   padding: 32px 0 32px 16px;
   border: 0.5px solod var(--light-background);
   border-top: 0;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+  
 }
 
 .menu-portfolio:hover,
 .menu-portfolio:focus {
-  border: 0.5px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -476,6 +475,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px
 
 .portfolio-item-dep {
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
 /* ============= /PORTFOLIO ===========*/
